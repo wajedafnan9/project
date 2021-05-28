@@ -1,0 +1,1129 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;469;500;600;700&display=swap');
+
+/** top bar start **/
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Oswald', sans-serif;
+}
+.top-mainbar {
+    background: #F5F5F5;
+    overflow: hidden;
+}
+.continer {
+    width: 70%;
+    margin: auto;
+}
+
+
+.phone-section {
+    width: 24%;
+    float: left;
+    padding: 10px 0px;
+    font-weight: 300;
+    font-family: "Work Sans", sans-serif;
+    border-left: 1px solid #d8d8d8;
+    border-right: 1px solid #d8d8d8;
+}
+.phone-section i {
+    color: #ff5200;
+    padding: 0px 5px;
+    
+}
+.email-section {
+    width: 60%;
+    float: left;
+    padding: 10px 0px;
+    font-family: "Work Sans", sans-serif;
+}
+.email-section i {
+    color: #ff5200;
+    padding: 0px 8px;
+}
+.icon-section i {
+    display: block;
+    float: left;
+    padding: 10px;
+    border: 1px solid #d8d8d8;
+    transition: 0.3s
+}
+.icon-section i:hover {
+    color: #ff5200;
+}
+/** top bar end **/
+
+/** main manu bar strat **/
+.main-manu-bar {
+    width: 100%;
+    overflow: hidden;
+}
+.logo-area {
+    width: 22%;
+    float: left;
+}
+.logo-area img {
+    width: 90px;
+    margin-top: 12px;
+}
+.manu-area {
+    float: right;
+}
+.manu-area ul {
+    list-style-type: none;
+}
+.manu-area ul li {
+    float: left;
+    padding: 16px 15px;
+}
+.manu-area ul li a {
+    text-decoration: none;
+    color: #6f6767;
+    font-weight: 500;
+    transition: 0.5s;
+    
+}
+.manu-area ul li a:hover {
+    color: #ff5200;
+}
+
+
+/** main manu bar end **/
+/** slider section strat **/
+
+
+.sliader-section {
+    background: url('../images/slide-1.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: #fff;
+    padding-top: 139px;
+    
+}
+.sliader-content h2 {
+    width: 30%;
+    margin-bottom: 10px;
+    font-weight: 500;
+
+}
+.slaicer-content-pra p {
+    width: 40%;
+    font-family: "Work Sans", sans-serif;
+    font-weight: 100;
+    padding: 10px 0px;
+    line-height: 1.5;
+    
+}
+.slaider-btn {
+    background: #ff5200;
+    color: #fff;
+    border: none;
+    padding: 5px 22px;
+    margin-top: 20px;
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+.slider-nav {
+    width: 45px;
+    margin: auto;
+    overflow: hidden;
+    padding: 14px 0px
+
+}
+.slider-nav span {
+    width: 10px;
+    height: 10px;
+    background: transparent;
+    border: 3px solid #fff;;
+    display: block;
+    border-radius: 50%;
+    cursor: pointer;
+    float: left;
+    margin-right: 8px;
+}
+.slider-nav span:last-child{
+    margin-right: 0px;
+    background: #ff5200;
+    border-color: #ff5200
+
+}
+/**service section strat **/
+#singel-box-section {
+    background: #f5f6f6;
+    overflow: hidden;
+    padding: 70px 0px;
+}
+.singe-box1 {
+    width: 166px;
+    background: white;
+    text-align: center;
+    padding: 20px;
+    transition: 0.5s;
+    float: left;
+    margin-right: 20px;
+}
+
+.singe-box1 i {
+    font-size: 35px;
+    padding: 15px 0px;
+    color: #ff5200;
+}
+.singe-box1 h2 {
+    line-height: 1.1;
+    font-weight: 500;
+    margin-bottom: 10px;
+    margin-bottom: 10px;
+    font-size: 24px;
+}
+.singe-box1 p {
+    font-family: "Work Sans", sans-serif;
+    line-height: 1.4;
+    font-size: 16px;
+    padding: 5px 0px;
+    color: #656565;
+}
+.singe-box1 a {
+    text-decoration: none;
+    font-family: "Work Sans", sans-serif;
+    color: #ff5200;
+}
+.singe-box1 a i {
+    font-size: 12px;
+    margin-left: 5px;
+}
+.singe-box1:hover {
+    background: #ff5200;
+    color: white;
+}
+.singe-box1:hover i {
+    color: white;
+}
+.singe-box1:hover h2 {
+    color: white;
+}
+.singe-box1:hover p {
+    color: white;
+}
+.singe-box1:hover a {
+    color: white; 
+}
+.singe-box1:last-child {
+    margin-right: 0px;
+}
+.singe-box1:nth-child(2){
+    background: #ff5200;
+}
+.singe-box1:nth-child(2) i{
+    color: white;
+}
+.singe-box1:nth-child(2) h2{
+    color: white;
+}
+.singe-box1:nth-child(2) p{
+    color: white;
+}
+.singe-box1:nth-child(2) a{
+    color: white;
+}
+/**service section end **/
+#work-section {
+    background: #fff;
+    overflow: hidden;
+    padding: 82px 0px;
+}
+.img-area {
+    width: 50%;
+    float: left;
+    margin-right: 25px;
+
+}
+.img-area img {
+    width: 100%;
+    
+}
+.content-area {
+    width: 45%;
+    float: left;
+    margin-bottom: 
+}
+.content-area h1 {
+    font-size: 25px;
+    font-weight: 700;
+    color:#3e3e3e;
+    
+}
+.content-area p {
+    font-size: 15px;
+    color: #656565;
+    font-family: "Work Sans", sans-serif;
+    line-height: 1.2;
+    margin-bottom: 5px;
+}
+
+.sub-link a {
+    display: block;
+    padding: 10px 0px;
+    text-decoration: none;
+    color: #000000;
+    font-family: "Work Sans", sans-serif;
+    transition: 0.3s;
+    
+}
+.link1 {
+    width: 50%;
+    float:left;
+    
+}
+.link1 i {
+    margin-right: 10px;
+    color: #8e7f7f;
+}
+.link2 {
+    width: 50%;
+    float: left;
+}
+.link2 i {
+    margin-right: 10px;
+    color: #8e7f7f;
+}
+.sub-link a:hover {
+    color: #ff5200;
+}
+
+button {
+    padding: 8px 30px;
+    border: none;
+    background: #ff5200;
+    color: white;
+    font-size: 17px;
+    text-transform: uppercase;
+    border-radius: 3px;
+    margin-top: 10px;
+    transition: 0.4s;
+}
+button:hover {
+    background: black;
+    color: white;
+}
+/***** work section end *****/
+/***** project count stra *****/
+#project-count {
+    background:linear-gradient(#00000087, #00000087),url('../images/why-choose-us1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+}
+.project1 {
+    width: 206px;
+    color: white;
+    padding: 60px 0px;
+    text-align: center;
+    float: left;
+    margin-right: 20px;
+}
+.project1 i {
+    font-size: 45px;
+    margin-bottom: 22px;
+}
+.project1 h2 {
+    font-size: 50px;
+    font-family: "Work Sans", sans-serif;
+    font-weight: 900;
+}
+.project1 h4 {
+    font-size: 20px;
+    margin-top: 10px;
+    font-weight: 500;
+}
+.project1:last-child {
+    margin-right: 0px;
+}
+/***** project count end *****/
+/***** service item strat *****/
+#service-item-section {
+    background: #F5F6F6;
+    padding: 60px 0px;
+    overflow: hidden;
+}
+.title-area {
+    text-align: center;
+    margin-bottom: 35px;
+}
+.title-area h1 {
+    font-size: 35px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    position: relative;
+    padding-bottom: 20px;
+    
+}
+.title-area h1:after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    background: #ff5200;
+    width: 60px;
+    border-bottom: 3px solid #ff5200;
+    left: 50%;
+    transform: translateX(-50%)
+}
+.title-area p {
+    width: 410px;
+    margin: auto;
+    font-size: 14px;
+    font-family: "Work Sans", sans-serif;
+    color: #828282;
+    line-height: 1.4;
+}
+.service-item1 {
+    width: 206px;
+    overflow: hidden;
+    float: left;
+    margin-right: 20px;
+}
+.service-item1:last-child {
+    margin: 0px;
+}
+.images img {
+    width: 100%;
+}
+.service-content h2 {
+    font-size: 20px;
+    font-weight: 500;
+    margin: 5px 0;
+}
+.service-content p {
+    font-family: "Work Sans", sans-serif;
+    font-size: 14px;
+    color: #656565;
+    line-height: 1.4;
+    
+}
+/**** price item section start ****/
+#price-item-area {
+    overflow: hidden;
+    padding: 50px 0;
+    background: #fff1f1;
+}
+.title-content-area {
+    text-align: center;
+    padding-bottom: 50px;
+}
+.title-content-area h1 {
+    font-size: 30px;
+    font-weight: 700;
+    position: relative;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+}
+.title-content-area h1:after {
+    content: "";
+    position: absolute;
+    bottom: 0px;
+    border-bottom: 3px solid #ff5200;
+    background: #ff5200;
+    width: 64px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.title-content-area p {
+    width: 435px;
+    font-size: 15px;
+    margin: auto;
+    font-family: "Work Sans", sans-serif;
+    line-height: 1.4
+}
+.price-item1 {
+    width: 260px;
+    background-color: #fff;
+    padding: 10px 10px;
+    float: left;
+    margin-right: 20px;
+}
+.title-doller h2 {
+    font-size: 25px;
+    padding: 10px 0px;
+}
+.price-item1:last-child {
+    margin-right: 0px;
+}
+.title-doller h1 {
+    font-size: 35px;
+    margin-bottom: 15px;
+}
+.srevice-list-area ul {
+    list-style-type: none;
+
+}
+.srevice-list-area li {
+    font-size: 14px;
+    margin-bottom: 10px;
+    color: #57647c;
+    font-family: "Work Sans", sans-serif;
+}
+.srevice-list-area li i {
+    color: #ff5200;
+    font-size: 12px
+}
+.price-btn button {
+    margin-bottom: 10px;
+}
+/**** price item section end ****/
+/**** idea section start ****/
+
+.col-md-6 {
+    width: 50%;
+    float: left;
+    overflow: hidden;
+    height: 350px;
+
+}
+.col-md-6 .idea_img  img{
+    width: 100%;
+    height: 350px;
+    
+    
+
+}
+.col-md-6 {
+    width: 50%;
+    float: left;
+    background: black;
+    color: #fff;
+}
+.idea_content {
+    padding-top: 20px;
+    padding-left: 25px;
+    
+}
+.idea_content h2 {
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.idea_content p {
+    font-size: 15px;
+    font-family: "Work Sans", sans-serif;;
+    margin-top: 10px;
+    line-height: 1.4;
+}
+.idea_single {
+    width: 50%;
+    float: left;
+}
+.idea_single {
+    width: 50%;
+    float: left;
+    margin-top: 35px;;
+    
+}
+.idea_item {
+    padding-bottom: 20px; 
+    
+}
+.idea_item i {
+    width: 20%;
+    float: left;
+    font-size: 30px;
+    color: #ff5002
+
+}
+.text {
+    width: 80%;
+    float: left;
+    
+}
+.text a {
+    text-decoration: none;
+    font-size: 20px;
+    color: #fff;
+    text-transform: uppercase;
+    transition: 0.3s;
+}
+.text a:hover {
+    color: #fb5200;
+}
+
+
+.idea_single p {
+    font-size: 14px;
+    margin-top: 0;;
+    padding-bottom: 10px;
+    font-family: "Work Sans", sans-serif;
+    color: #ddd;
+    line-height: 1.4;
+    transition: 0.3s;
+}
+.idea_single p:hover {
+    color: #fb5200;
+    cursor:pointer;
+}
+/**** idea section end ****/
+/**** or team section strat ****/
+
+.our-team-pad-area {
+    padding-top: 390px;
+    background: #fff;
+    
+}
+
+.our-team-title-area {
+    text-align: center;
+    margin-bottom: 25px;
+    position: relative;
+}
+.our-team-title-area h1 {
+    font-weight: 500;
+    font-size: 30px;
+    position: relative;
+    padding-bottom: 10px;
+    
+
+}
+.our-team-title-area h1:after {
+    content: "";
+    width: 64px;
+    position: absolute;
+    bottom: 0;
+    border-bottom: 3px solid #ff5200;
+    background: #ff5200;
+    left: 50%;
+    transform: translate(-50%);
+    
+    
+    
+}
+
+.our-team-title-area p {
+    width: 460px;
+    margin: auto;
+    font-family: "Work Sans", sans-serif;
+    font-size: 14px;
+    padding-top: 10px;
+}
+.our-team-information-box {
+    border-left: 1px solid #ded3d3;
+    border-bottom: 1px solid #ded3d3; 
+    border-right: 1px solid #ded3d3;
+    width: 204px;
+    overflow: hidden;
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 30px;
+}
+.our-team-information-box:last-child {
+    margin-right: 0px;
+}
+.our-team-img img {
+    width: 100%;
+    transition: 0.5s
+}
+.our-team-info {
+    text-align: center;
+    padding: 10px 0px;
+}
+.our-team-info h2 {
+    font-size: 20px;
+    font-weight: 500;
+}
+.our-team-info p {
+    font-size: 14px;
+    font-family: "Work Sans", sans-serif;
+    padding: 5px 0px;
+    color: #656565;
+    
+}
+.btn {
+    width: 160px;
+    margin: auto;
+    padding-bottom: 40px;
+}
+.btn button {
+    width: 100%;
+    background: black;
+    
+}
+.btn button:hover {
+    background: #ff5200;
+    cursor: pointer;
+}
+.icons-link {
+    width: 110px;
+    margin: auto;
+    
+}
+.icons-link i {
+    font-size: 24px;
+    margin-bottom: 20px
+}
+.our-team-img {
+    position: relative;
+    overflow: hidden;
+}
+.socila-icons {
+     width: 142px;
+    position: absolute;
+    bottom: 60px;
+    text-align: center;
+    left: 50%;
+    transform: translateX(-50%);
+    
+    
+}
+.socila-icons a {
+   
+    width: 30px;
+    height: 30px;
+    display: block;
+    float: left;
+    display: grid;
+    place-items: center;
+    text-decoration: none;
+    background: red;
+    color: white;
+    border-radius: 100%;
+    margin-right: 5px;
+    transition: 0.3s;
+}
+.socila-icons a:first-child {
+    background: #3b5998 ;
+    opacity: 0;
+}
+.socila-icons a:nth-child(2) {
+    background: #00acee;
+    opacity: 0;
+}
+.socila-icons a:nth-child(3) {
+    background: #db4a39;
+    opacity: 0;
+}
+.socila-icons a:last-child {
+    background: #0e76a8;
+    opacity: 0;
+}
+.socila-icons a:hover {
+    background: white;
+    color: black;
+}
+.our-team-information-box:hover a:first-child {
+    transform: translateY(25px);
+    transition: 0.90s;
+    opacity: 1;
+}
+.our-team-information-box:hover a:nth-child(2) {
+    transform: translateY(25px);
+    transition: 0.60s;
+    opacity: 1;
+}
+.our-team-information-box:hover a:nth-child(3) {
+    transform: translateY(25px);
+    transition: 0.40s;
+    opacity: 1;
+}
+.our-team-information-box:hover a:last-child {
+    transform: translateY(25px);
+    transition: 0.20s;
+    opacity: 1;
+}
+.our-team-img:hover img {
+    transform: scale(1.1);
+}
+/**** our team disegn end ****/
+/**** projects disegn start ****/
+
+.projects-section {
+    overflow: hidden;
+    background: #f5f6f6;
+}
+.porjects-pad-area {
+    padding: 40px 0px;
+}
+
+.singalefull-box-area {
+    column-count: 3;
+}
+.singlae-box {
+    overflow: hidden;
+    width: 280px;
+    float: left;
+    position: relative;
+    margin-right: 20px;
+    margin-bottom: 20px;
+
+}
+.singlae-box:last-child {
+    margin-right: 0px;
+}
+.singlae-box img {
+    width: 100%;
+}
+.projects-info {
+    overflow: hidden;
+    position: absolute;
+    bottom: 0;
+    color: #ffffff;
+    background: linear-gradient(to top, black, transparent 80px );
+    padding: 20px 15px;
+    
+}
+.projects-meta {
+    overflow: hidden;
+    width: 100%;
+    transform: translateY(30px);
+    transition: 0.4s;
+    
+}
+.projects-meta h4 {
+    font-size: 14px;
+    font-family: "Work Sans", sans-serif;
+    font-weight: 500;
+    text-decoration: underline;
+    margin-bottom: 10px;
+}
+.projects-meta h3 {
+    font-size: 18px;
+    font-weight: 600;
+}
+.learn-more-btn {
+    transform: translateX(-110px);
+}
+.learn-more-btn a {
+    color: #ffffff;
+    font-size: 14px;
+    font-family: "Work Sans", sans-serif;
+    text-decoration: none;
+}
+.learn-more-btn a i {
+    font-size: 10px;
+    margin-left: 8px;
+}
+
+.singlae-box:hover .projects-meta {
+    transform: translateY(-10px);
+} 
+.singlae-box:hover .learn-more-btn {
+    transform: translateX(0px);
+    transition: 0.3s;
+    transition-delay: 0.2s;
+}
+.singlae-box:hover .projects-info {
+    padding: 20px 15px ;
+background: linear-gradient(to top, black, transparent 130px);
+}
+/**** projects disegn end ****/
+/**** blog disegn start ****/
+
+.latest-section-area {
+    overflow: hidden;
+    
+}
+.blog-pad-area {
+    padding-top: 40px;
+    padding-bottom: 50px;
+    overflow: hidden;
+}
+.comment-box {
+    width: 275px;
+    overflow: hidden;
+    float: left;
+    margin-right: 25px;
+    border-left: 1px solid #e8e1e1;
+    border-bottom: 1px solid #e8e1e1;
+    border-right: 1px solid #e8e1e1;
+}
+
+.comment-box:last-child {
+    margin-right: 0;
+}
+.imges {
+    overflow: hidden;
+    
+}
+.imges img {
+    width: 100%;
+    transition: 0.3s;
+}
+.comment-counting {
+    width: 100%;
+    margin-left: 10px;
+    margin-top: 20px;
+    
+}
+.stap1 {
+    width: 29%;
+    float: left;
+    color: #b5acac;
+}
+.comment-writing {
+    padding: 20px 10px;
+}
+
+.comment-writing h2 {
+    font-size: 20px;
+    font-weight: 500;
+    color: #5f5f5f;
+    margin-bottom: 20px;
+}
+.comment-writing p {
+    font-size: 15px;
+    font-family: "Work Sans", sans-serif;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+.comment-writing a {
+    text-decoration: none;
+    font-family: "Work Sans", sans-serif;
+    font-size: 14px;
+    color: #ff5200;
+}
+.comment-writing a i {
+    font-size: 12px;
+    margin-left: 8px;
+}
+.border {
+    border-bottom: 3px solid black;
+    width: 14px;
+    float: left;
+    margin-top: 12px;
+    margin-right: 10px;
+    border-bottom-color: #ff5200;
+}
+.imges:hover img{
+    transform:scale(1.05)
+}
+.stap2 p {
+    transition: 0.3s;
+    cursor: pointer;
+}
+.stap2 p:hover {
+    color: #ff5200;
+}
+
+/**** blog disegn end ****/
+
+#footer {
+    background: #1A1A1A;
+    overflow: hidden;
+    display: block;
+    color: white;
+}
+.copyright-area {
+    border-top: 1px solid #ababab;
+}
+.copy-righting-rewper {
+    overflow: hidden;
+    padding: 30px 0px;
+}
+.copy-right-text {
+    overflow: hidden;
+    width: 50%;
+    float: left;
+    color: #ababab;
+    font-size: 15px;
+    font-family: "Work Sans", sans-serif;
+}
+.copy-right-menu {
+    float: right;
+}
+.copy-right-menu ul {
+    list-style-type: none;
+}
+.copy-right-menu li {
+    float: left;
+    margin-left: 15px;
+}
+.copy-right-menu li a {
+    color: #ababab;
+    text-decoration: none;
+    font-family: "Work Sans", sans-serif;
+    font-size: 16px;
+}
+.about-repwer {
+    overflow: hidden;
+    padding: 30px 0px;
+    margin-top: 100px;
+}
+.fbox {
+    width: 205px;
+    overflow: hidden;
+    float: left;
+    margin-right: 20px;
+}
+.fbox:last-child {
+    margin-right: 0px;
+}
+.fbox h2 {
+    font-size: 18px;
+    margin-bottom: 20px;
+    font-weight: 500;
+}
+.fbox p {
+    font-size: 14px;
+    font-family: "Work Sans", sans-serif;
+    line-height: 1.4;
+    color: #ababab;
+    
+}
+.ficons {
+    margin-top: 20px;
+    
+}
+.ficons a {
+    margin-right: 10px;
+    color: #ababab;
+    transition: .3s;
+}
+.ficons a:hover {
+    color: #ff5200;
+}
+.icos-info {
+    width: 100%;
+    padding: 6px 0px;
+    overflow: hidden;
+}
+.icos-info i {
+    width: 15%;
+    float: left;
+    color: #ff5200;
+}
+.icos-info p {
+    width: 85%;
+    float: left;
+    font-size: 13px;
+}
+.menu li {
+    padding-bottom: 5px;
+    border-bottom: 1px dashed #464444;
+    
+    
+}
+.menu li:hover a{
+    color: #ff5200;
+}
+.menu a {
+    text-decoration: none;
+    font-size: 15px;
+    font-family: "Work Sans", sans-serif;
+    color: #ababab;
+    transition: 0.3s
+}
+.rpost {
+    overflow: hidden;
+    width: 100%;
+    margin-bottom: 10px;
+}
+.rpost-meta {
+    width: 22%;
+    float: left;
+    text-align: center;
+    margin-right: 16px;
+    background: rgba(255, 255, 255, 0.1);
+    color: #fff;
+    padding: 5px 5px;
+    
+    
+}
+.rpost-title {
+    font-size: 11px;
+    color: #ababab;
+}
+.rpost-comment li {
+    display: inline-block;
+    margin-right: 5px;
+    margin-top: 8px;
+}
+.rpost-comment li:last-child {
+    margin-right: 0px;
+}
+.rpost-comment i {
+    margin-right: 5px;
+}
+strong {
+    font-size: 26px;
+}
+span {
+    font-size: 10px;
+    
+}
+/*** subscribe scs start ***/
+#subscribe {
+    position: relative;
+    top: 75px;
+}
+.subscribe-wrepper {
+    overflow: hidden;
+    background: #ff5000;
+    color: #fff;
+    padding: 20px 30px;
+    position: relative;
+    bottom: 10px
+}
+.single-subscribe-box {
+    width: 274px;
+    float: left;
+    padding-bottom: 10px;
+    
+}
+.single-subscribe-box h2 {
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.subscribe-input-box :focus {
+    outline: 0;
+}
+.subscribe-input-box input {
+    border: none;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+.subscribe-input-box input[type="email"] {
+    position: relative;
+    padding: 15px 20px 15px 20px;
+    font-family: "Work Sans", sans-serif;
+}
+.subscribe-input-box input[type="submit"] {
+    position: absolute;
+    padding: 17px 25px 13px 25px;
+    font-family: "Work Sans", sans-serif;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    left: 22%;
+    background: #000;
+    color: #ffff;
+    cursor: pointer;
+}
+.single-subscribe-box p {
+    font-family: "Work Sans", sans-serif;
+    font-size: 14px;
+    line-height: 1.5;
+}
+.subscribe-icons a {
+    text-decoration: none;
+}
+
+
+.subscribe-icons i {
+     width: 30px;
+    height: 30px;
+    border: 1px solid #fff;
+   display: flex;
+    align-items: center;
+    justify-content: center;
+    float: left;
+    border-radius: 50%;
+    margin-right: 10px;
+    color: #fff;
+    transition: 0.3s;
+}
+.subscribe-icons i:hover {
+    background: #fff;
+    color: black;
+}
+/*** subscribe scs end ***/
+/*** drobdwon nave bar item start ***/
+
+
